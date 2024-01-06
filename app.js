@@ -7,9 +7,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const shopify = new Shopify({
-  shopName: 'your-shop-name',
-  apiKey: 'your-shopify-api-key',
-  password: 'your-shopify-api-password',
+  shopName: 'al-jazeera-qurrum',
+  apiKey: 'cc834592045b656ca9f0529229ac3223',
+  password: '19c0cb7eb88398060e85d9bde681fe1c',
 });
 
 app.get('/updateGoldPrice', async (req, res) => {
